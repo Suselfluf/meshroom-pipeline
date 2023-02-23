@@ -1,0 +1,31 @@
+version: '3.8'
+services:
+  flask:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      ## In case to go prod remove this requirement  
+      - FLASK_DEBUG=development
+      ## Allows to see the work in command line
+      - PYTHONUNBUFFERED=True                   
+    ## Restarn on failure
+    restart: on-failure
+    ## Duplicating files in docker container folder
+    volumes:
+      - .:/flask-app
+    # Port, which will be listened from the outside : Port within the container
+    ports:
+      - "5000:5000"
+    networks:
+      my_network:
+    ## Ipv4_adress of machine
+        ipv4_address: 192.168.137.1  
+    
+networks:
+  my_network:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 192.168.0.0/16
