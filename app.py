@@ -82,5 +82,5 @@ def recieveBulk():
     return 'File saved successfully', 200
         
 if __name__ == '__main__':
-   app.run(host='0.0.0.0')    ## Change to 0.0.0.0 before submission
+   app.run(debug=True, host='0.0.0.0')    ## Change to 0.0.0.0 before submission
  
