@@ -1,0 +1,213 @@
+{
+    "fileVersion": 2.0,
+    "computer": {
+        "nbCores": 0,
+        "cpuFreq": 2601.0,
+        "ramTotal": 15.875385284423828,
+        "ramAvailable": 0,
+        "vramAvailable": 0,
+        "swapAvailable": 0,
+        "gpuMemoryTotal": 0,
+        "gpuName": "",
+        "curves": {
+            "cpuUsage.0": [
+                72.2
+            ],
+            "cpuUsage.1": [
+                72.8
+            ],
+            "cpuUsage.2": [
+                74.1
+            ],
+            "cpuUsage.3": [
+                75.5
+            ],
+            "cpuUsage.4": [
+                74.8
+            ],
+            "cpuUsage.5": [
+                72.8
+            ],
+            "cpuUsage.6": [
+                73.5
+            ],
+            "cpuUsage.7": [
+                78.2
+            ],
+            "ramUsage": [
+                36.6
+            ],
+            "swapUsage": [
+                49.1
+            ],
+            "vramUsage": [
+                0
+            ],
+            "ioCounters.read_count": [
+                2023977
+            ],
+            "ioCounters.write_count": [
+                3908727
+            ],
+            "ioCounters.read_bytes": [
+                97518772224
+            ],
+            "ioCounters.write_bytes": [
+                137826916864
+            ],
+            "ioCounters.read_time": [
+                1461
+            ],
+            "ioCounters.write_time": [
+                4320
+            ],
+            "gpuMemoryUsed": [
+                "0"
+            ],
+            "gpuUsed": [
+                "0"
+            ],
+            "gpuTemperature": [
+                "73"
+            ]
+        },
+        "nvidia_smi": "C:\\Windows\\system32\\nvidia-smi.exe",
+        "_isInit": true
+    },
+    "process": {
+        "duration": 0,
+        "curves": {
+            "threads.0.id": [
+                14608
+            ],
+            "threads.0.user_time": [
+                0.34375
+            ],
+            "threads.0.system_time": [
+                0.203125
+            ],
+            "threads.1.id": [
+                2016
+            ],
+            "threads.1.user_time": [
+                0.0
+            ],
+            "threads.1.system_time": [
+                0.0
+            ],
+            "threads.2.id": [
+                10560
+            ],
+            "threads.2.user_time": [
+                0.0
+            ],
+            "threads.2.system_time": [
+                0.0
+            ],
+            "threads.3.id": [
+                18828
+            ],
+            "threads.3.user_time": [
+                0.0
+            ],
+            "threads.3.system_time": [
+                0.0
+            ],
+            "threads.4.id": [
+                5864
+            ],
+            "threads.4.user_time": [
+                0.0
+            ],
+            "threads.4.system_time": [
+                0.03125
+            ],
+            "threads.5.id": [
+                15744
+            ],
+            "threads.5.user_time": [
+                0.0
+            ],
+            "threads.5.system_time": [
+                0.046875
+            ],
+            "memory_info.rss": [
+                31965184
+            ],
+            "memory_info.vms": [
+                23007232
+            ],
+            "memory_info.num_page_faults": [
+                14559
+            ],
+            "memory_info.peak_wset": [
+                32432128
+            ],
+            "memory_info.wset": [
+                31965184
+            ],
+            "memory_info.peak_paged_pool": [
+                170144
+            ],
+            "memory_info.paged_pool": [
+                168256
+            ],
+            "memory_info.peak_nonpaged_pool": [
+                22984
+            ],
+            "memory_info.nonpaged_pool": [
+                22208
+            ],
+            "memory_info.pagefile": [
+                23007232
+            ],
+            "memory_info.peak_pagefile": [
+                23392256
+            ],
+            "memory_info.private": [
+                23007232
+            ],
+            "num_threads": [
+                6
+            ],
+            "memory_percent": [
+                0.18752236199360972
+            ],
+            "io_counters.read_count": [
+                6073
+            ],
+            "io_counters.write_count": [
+                53
+            ],
+            "io_counters.read_bytes": [
+                3693719
+            ],
+            "io_counters.write_bytes": [
+                32746
+            ],
+            "io_counters.other_count": [
+                8056
+            ],
+            "io_counters.other_bytes": [
+                321788
+            ],
+            "cpu_percent": [
+                0.0
+            ],
+            "num_ctx_switches.voluntary": [
+                250
+            ],
+            "num_ctx_switches.involuntary": [
+                0
+            ],
+            "status": [
+                "running"
+            ]
+        },
+        "openFiles": {}
+    },
+    "times": [
+        1678463735.0451376
+    ],
+    "interval": 10
+}

@@ -1,0 +1,18 @@
+{
+    "status": "SUCCESS",
+    "execMode": "LOCAL",
+    "nodeName": "FeatureExtraction_1",
+    "nodeType": "FeatureExtraction",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_featureExtraction  --input \"C:/Users/User/Desktop/Projects/Meshroom-Service/PipeLines/MeshroomCache/CameraInit/051455e51f88b4135288c31cf0f319e306483a2d/cameraInit.sfm\" --describerTypes sift --describerPreset normal --describerQuality normal --contrastFiltering GridSort --gridFiltering True --forceCpuExtraction True --maxThreads 0 --verboseLevel info --output \"C:/Users/User/Desktop/Projects/Meshroom-Service/PipeLines/MeshroomCache/FeatureExtraction/eba1419a146d2af2c369866f239f2cb31251b9d1\" --rangeStart 40 --rangeSize 40",
+    "env": null,
+    "startDateTime": "2023-03-08 10:41:40.226854",
+    "endDateTime": "2023-03-08 10:51:36.826865",
+    "elapsedTime": 596.6000113487244,
+    "hostname": "User-PC",
+    "sessionUid": "2f4b8880-bd83-11ed-82bf-58fb841d02d0",
+    "returnCode": 0,
+    "elapsedTimeStr": "0:09:56.600011"
+}

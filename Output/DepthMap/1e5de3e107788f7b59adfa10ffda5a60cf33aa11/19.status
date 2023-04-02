@@ -1,0 +1,18 @@
+{
+    "_parent": null,
+    "status": "NONE",
+    "execMode": "NONE",
+    "nodeName": "DepthMap_1",
+    "nodeType": "DepthMap",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": null,
+    "env": null,
+    "startDateTime": "",
+    "endDateTime": "",
+    "elapsedTime": 0,
+    "hostname": "",
+    "sessionUid": "22c5d9c6-bd83-11ed-837c-58fb841d02d0",
+    "elapsedTimeStr": "0:00:00"
+}

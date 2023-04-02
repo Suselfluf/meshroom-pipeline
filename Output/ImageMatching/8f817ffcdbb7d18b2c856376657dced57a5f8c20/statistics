@@ -1,0 +1,186 @@
+{
+    "fileVersion": 2.0,
+    "computer": {
+        "nbCores": 0,
+        "cpuFreq": 2601.0,
+        "ramTotal": 15.875385284423828,
+        "ramAvailable": 0,
+        "vramAvailable": 0,
+        "swapAvailable": 0,
+        "gpuMemoryTotal": 0,
+        "gpuName": "",
+        "curves": {
+            "cpuUsage.0": [
+                48.3
+            ],
+            "cpuUsage.1": [
+                48.3
+            ],
+            "cpuUsage.2": [
+                24.1
+            ],
+            "cpuUsage.3": [
+                22.4
+            ],
+            "cpuUsage.4": [
+                22.0
+            ],
+            "cpuUsage.5": [
+                22.8
+            ],
+            "cpuUsage.6": [
+                21.7
+            ],
+            "cpuUsage.7": [
+                56.9
+            ],
+            "ramUsage": [
+                31.9
+            ],
+            "swapUsage": [
+                50.5
+            ],
+            "vramUsage": [
+                0
+            ],
+            "ioCounters.read_count": [
+                1447120
+            ],
+            "ioCounters.write_count": [
+                2493757
+            ],
+            "ioCounters.read_bytes": [
+                70166729216
+            ],
+            "ioCounters.write_bytes": [
+                79464378880
+            ],
+            "ioCounters.read_time": [
+                976
+            ],
+            "ioCounters.write_time": [
+                2684
+            ],
+            "gpuMemoryUsed": [
+                "0"
+            ],
+            "gpuUsed": [
+                "0"
+            ],
+            "gpuTemperature": [
+                "50"
+            ]
+        },
+        "nvidia_smi": "C:\\Windows\\system32\\nvidia-smi.exe",
+        "_isInit": true
+    },
+    "process": {
+        "duration": 0,
+        "curves": {
+            "io_counters.read_count": [
+                692918
+            ],
+            "io_counters.write_count": [
+                865
+            ],
+            "io_counters.read_bytes": [
+                10486440
+            ],
+            "io_counters.write_bytes": [
+                6059144
+            ],
+            "io_counters.other_count": [
+                30007
+            ],
+            "io_counters.other_bytes": [
+                590318
+            ],
+            "status": [
+                "running"
+            ],
+            "threads.0.id": [
+                9992
+            ],
+            "threads.0.user_time": [
+                0.390625
+            ],
+            "threads.0.system_time": [
+                0.203125
+            ],
+            "threads.1.id": [
+                12324
+            ],
+            "threads.1.user_time": [
+                0.046875
+            ],
+            "threads.1.system_time": [
+                0.09375
+            ],
+            "threads.2.id": [
+                3708
+            ],
+            "threads.2.user_time": [
+                0.015625
+            ],
+            "threads.2.system_time": [
+                0.046875
+            ],
+            "memory_info.rss": [
+                32604160
+            ],
+            "memory_info.vms": [
+                23781376
+            ],
+            "memory_info.num_page_faults": [
+                877082
+            ],
+            "memory_info.peak_wset": [
+                33218560
+            ],
+            "memory_info.wset": [
+                32604160
+            ],
+            "memory_info.peak_paged_pool": [
+                170144
+            ],
+            "memory_info.paged_pool": [
+                168256
+            ],
+            "memory_info.peak_nonpaged_pool": [
+                23376
+            ],
+            "memory_info.nonpaged_pool": [
+                21800
+            ],
+            "memory_info.pagefile": [
+                23781376
+            ],
+            "memory_info.peak_pagefile": [
+                24354816
+            ],
+            "memory_info.private": [
+                23781376
+            ],
+            "memory_percent": [
+                0.19127088691301045
+            ],
+            "cpu_percent": [
+                0.0
+            ],
+            "num_ctx_switches.voluntary": [
+                302
+            ],
+            "num_ctx_switches.involuntary": [
+                0
+            ],
+            "num_threads": [
+                3
+            ]
+        },
+        "openFiles": {}
+    },
+    "times": [
+        1678203432.6987877
+    ],
+    "interval": 10
+}

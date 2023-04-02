@@ -2,6 +2,7 @@ from flask import Flask, request
 from flask_cors import CORS
 import os 
 from werkzeug.utils import secure_filename
+import pika
 
 
 app = Flask(__name__)
@@ -10,6 +11,7 @@ CORS(app)
 def allowed_file(filename):
     return '.' in filename and \
            filename.rsplit('.', 1)[1].lower() in app.config['ALLOWED_EXTENSIONS']
+
 
 @app.route('/upload', methods=['POST'])
 def upload():
@@ -30,8 +32,7 @@ def upload():
 
     # save the file to the server
     filename = file.filename
-    # file.save(os.path.join(app.config['./Incomming-Images'], filename))
-    # file.save('./Incomming-Images/')
+   
 
     if file and allowed_file(file.filename):
         filename = secure_filename(file.filename)
@@ -52,11 +53,19 @@ def recieveBulk():
     
     app.config['UPLOAD_FOLDER'] = './Incomming-Images'
     app.config['ALLOWED_EXTENSIONS'] = {'png', 'jpg', 'jpeg', 'gif'}
+    print("///////////////////////////////Files/////////////////////////////////////")
+    print(request.files)
+    print("///////////////////////////////Files/////////////////////////////////////")
 
     if 'files' not in request.files:
         return 'No file part in the request', 400
 
-    folderName = request.form.get("folder-name")
+    folderName = request.form.get("foldername")
+    print("///////////////////////////////Folder_name/////////////////////////////////////")
+    print(request.form.get("foldername"))
+    print("///////////////////////////////Folder_name////////////////////////////////////")
+
+    
     app.config['UPLOAD_FOLDER'] = os.path.join(app.config['UPLOAD_FOLDER'], folderName)
 
     if not os.path.exists(app.config['UPLOAD_FOLDER']):
@@ -84,3 +93,4 @@ def recieveBulk():
 if __name__ == '__main__':
    app.run(debug=True, host='0.0.0.0')    ## Change to 0.0.0.0 before submission
  
+

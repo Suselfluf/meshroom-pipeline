@@ -1,0 +1,18 @@
+Program called with the following parameters:
+ * featuresFolders =  = [../Output/FeatureExtraction/4b921ba9590b31a662cacab7d7ab093fdd8e2373]
+ * input = "../Output/CameraInit/b244d2f26dd98a2a92caba4aef627d10412442f6/cameraInit.sfm"
+ * matchingMode = "a/a" (default)
+ * maxDescriptors = 500
+ * method =  Unknown Type "enum EImageMatchingMethod"
+ * minNbImages = 200
+ * nbMatches = 50
+ * nbNeighbors = 50 (default)
+ * output = "../Output/ImageMatching/8f817ffcdbb7d18b2c856376657dced57a5f8c20/imageMatches.txt"
+ * outputCombinedSfM = "" (default)
+ * tree = "C:\Users\User\Desktop\Projects\Meshroom-Service\Meshroom\aliceVision\share\aliceVision\vlfeat_K80L3.SIFT.tree"
+ * verboseLevel = "info"
+ * weights = ""
+
+[18:37:12.813761][info] Use EXHAUSTIVE method.
+[18:37:12.814729][info] Number of selected image pairs: 3160
+[18:37:12.980769][info] pairList exported in: ../Output/ImageMatching/8f817ffcdbb7d18b2c856376657dced57a5f8c20/imageMatches.txt

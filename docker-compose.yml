@@ -1,9 +1,9 @@
 # version: '3.8'
 # services:
 #   flask:
-#     build: 
-#       context: .
-#       dockerfile: Dockerfile
+    # build: 
+    #   context: .
+    #   dockerfile: Dockerfile
 #     environment:
 #       ## In case to go prod remove this requirement  
 #       - FLASK_DEBUG=true
@@ -31,9 +31,14 @@ version: '3'
 
 services:
   web:
-    build: .
+    build: 
+      context: .
+      dockerfile: Dockerfile
     ports:
       - "5000:5000"
+    restart: on-failure
+    volumes:
+      - .:/app/Incomming-Images
     networks:
       mynetwork:
         ipv4_address: 192.168.137.1

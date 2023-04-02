@@ -1,0 +1,19 @@
+{
+    "_parent": null,
+    "status": "ERROR",
+    "execMode": "LOCAL",
+    "nodeName": "FeatureMatching_1",
+    "nodeType": "FeatureMatching",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_featureMatching  --input \"../Output/CameraInit/b244d2f26dd98a2a92caba4aef627d10412442f6/cameraInit.sfm\" --featuresFolders \"../Output/FeatureExtraction/4b921ba9590b31a662cacab7d7ab093fdd8e2373\" --imagePairsList \"../Output/ImageMatching/8f817ffcdbb7d18b2c856376657dced57a5f8c20/imageMatches.txt\" --describerTypes sift --photometricMatchingMethod ANN_L2 --geometricEstimator acransac --geometricFilterType fundamental_matrix --distanceRatio 0.8 --maxIteration 2048 --geometricError 0.0 --knownPosesGeometricErrorMax 5.0 --maxMatches 0 --savePutativeMatches False --crossMatching False --guidedMatching False --matchFromKnownCameraPoses False --exportDebugFiles False --verboseLevel info --output \"../Output/FeatureMatching/f61992eb42cfbc2a6d6bb3d1e60be91877ec66c7\" --rangeStart 20 --rangeSize 20",
+    "env": null,
+    "startDateTime": "2023-03-10 18:55:36.795880",
+    "endDateTime": "",
+    "elapsedTime": 0,
+    "hostname": "User-PC",
+    "sessionUid": "fd19f492-bf5b-11ed-80a0-58fb841d02d0",
+    "returnCode": 1,
+    "elapsedTimeStr": "0:00:00"
+}

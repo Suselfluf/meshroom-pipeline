@@ -1,0 +1,135 @@
+Program called with the following parameters:
+ * contrastFiltering =  Unknown Type "enum aliceVision::feature::EFeatureConstrastFiltering"
+ * describerPreset =  Unknown Type "enum aliceVision::feature::EImageDescriberPreset"
+ * describerQuality =  Unknown Type "enum aliceVision::feature::EFeatureQuality"
+ * describerTypes = "sift"
+ * forceCpuExtraction = 1
+ * gridFiltering = 1
+ * input = "../Output/CameraInit/b244d2f26dd98a2a92caba4aef627d10412442f6/cameraInit.sfm"
+ * maxNbFeatures = 0 (default)
+ * maxThreads = 0
+ * output = "../Output/FeatureExtraction/4b921ba9590b31a662cacab7d7ab093fdd8e2373"
+ * rangeSize = 40
+ * rangeStart = 0
+ * relativePeakThreshold = 0.02 (default)
+ * verboseLevel =  Unknown Type "enum aliceVision::system::EVerboseLevel"
+
+[18:13:10.736494][info] CUDA-Enabled GPU.
+Device information:
+	- id:                      0
+	- name:                    NVIDIA GeForce GTX 1060
+	- compute capability:      6.1
+	- total device memory:     3071 MB 
+	- device memory available: 2463 MB 
+	- per-block shared memory: 49152
+	- warp size:               32
+	- max threads per block:   1024
+	- max threads per SM(X):   2048
+	- max block sizes:         {1024,1024,64}
+	- max grid sizes:          {2147483647,65535,65535}
+	- max 2D array texture:    {131072,65536}
+	- max 3D array texture:    {16384,16384,16384}
+	- max 2D linear texture:   {131072,65000,2097120}
+	- max 2D layered texture:  {32768,32768,2048}
+	- number of SM(x)s:        10
+	- registers per SM(x):     65536
+	- registers per block:     65536
+	- concurrent kernels:      yes
+	- mapping host memory:     yes
+	- unified addressing:      yes
+	- texture alignment:       512 byte
+	- pitch alignment:         32 byte
+0
+[18:13:10.884492][info] Supported CUDA-Enabled GPU detected.
+[18:13:10.885493][info] Job max memory consumption for one image: 3730 MB
+[18:13:10.885493][info] Memory information: 
+	- Total RAM:     15.8754 GB
+	- Free RAM:      7.06515 GB
+	- Available RAM: 7.06515 GB
+	- Total swap:    131072 GB
+	- Free swap:     131039 GB
+[18:13:10.885493][info] Max number of threads regarding memory usage: 1
+[18:13:10.885493][warning] More than half of the RAM is used by other applications. It would be more efficient to close them.
+[18:13:10.885493][warning]  => 9 GB are used by other applications for a total RAM capacity of 16 GB.
+[18:13:10.885493][info] # threads for extraction: 1
+[18:13:11.146493][info] Extracting sift features from view '../Incomming-Images/Purple_Top/IMG_7572.jpeg' [cpu]
+[18:13:30.165891][info]       20000 sift features extracted from view '../Incomming-Images/Purple_Top/IMG_7572.jpeg'
+[18:13:30.447885][info] Extracting sift features from view '../Incomming-Images/Purple_Top/IMG_7560.jpeg' [cpu]
+[18:13:49.290349][info]       20000 sift features extracted from view '../Incomming-Images/Purple_Top/IMG_7560.jpeg'
+[18:13:49.614451][info] Extracting sift features from view '../Incomming-Images/Purple_Top/IMG_7608.jpeg' [cpu]
+[18:14:07.382490][info]       20000 sift features extracted from view '../Incomming-Images/Purple_Top/IMG_7608.jpeg'
+[18:14:07.647759][info] Extracting sift features from view '../Incomming-Images/Purple_Top/IMG_7593.jpeg' [cpu]
+[18:14:25.398298][info]       20000 sift features extracted from view '../Incomming-Images/Purple_Top/IMG_7593.jpeg'
+[18:14:25.668147][info] Extracting sift features from view '../Incomming-Images/Purple_Top/IMG_7589.jpeg' [cpu]
+[18:14:43.294858][info]       20000 sift features extracted from view '../Incomming-Images/Purple_Top/IMG_7589.jpeg'
+[18:14:43.554213][info] Extracting sift features from view '../Incomming-Images/Purple_Top/IMG_7571.jpeg' [cpu]
+[18:15:01.398672][info]       20000 sift features extracted from view '../Incomming-Images/Purple_Top/IMG_7571.jpeg'
+[18:15:01.664666][info] Extracting sift features from view '../Incomming-Images/Purple_Top/IMG_7587.jpeg' [cpu]
+[18:15:19.145591][info]       20000 sift features extracted from view '../Incomming-Images/Purple_Top/IMG_7587.jpeg'
+[18:15:19.403639][info] Extracting sift features from view '../Incomming-Images/Purple_Top/IMG_7609.jpeg' [cpu]
+[18:15:37.936794][info]       20000 sift features extracted from view '../Incomming-Images/Purple_Top/IMG_7609.jpeg'
+[18:15:38.185158][info] Extracting sift features from view '../Incomming-Images/Purple_Top/IMG_7586.jpeg' [cpu]
+[18:15:55.970902][info]       20000 sift features extracted from view '../Incomming-Images/Purple_Top/IMG_7586.jpeg'
+[18:15:56.212958][info] Extracting sift features from view '../Incomming-Images/Purple_Top/IMG_7597.jpeg' [cpu]
+[18:16:14.021189][info]       20000 sift features extracted from view '../Incomming-Images/Purple_Top/IMG_7597.jpeg'
+[18:16:14.276240][info] Extracting sift features from view '../Incomming-Images/Purple_Top/IMG_7569.jpeg' [cpu]
+[18:16:32.030256][info]       20000 sift features extracted from view '../Incomming-Images/Purple_Top/IMG_7569.jpeg'
+[18:16:32.285463][info] Extracting sift features from view '../Incomming-Images/Purple_Top/IMG_7555.jpeg' [cpu]
+[18:16:50.217218][info]       20000 sift features extracted from view '../Incomming-Images/Purple_Top/IMG_7555.jpeg'
+[18:16:50.477195][info] Extracting sift features from view '../Incomming-Images/Purple_Top/IMG_7611.jpeg' [cpu]
+[18:17:08.085238][info]       20000 sift features extracted from view '../Incomming-Images/Purple_Top/IMG_7611.jpeg'
+[18:17:08.330478][info] Extracting sift features from view '../Incomming-Images/Purple_Top/IMG_7588.jpeg' [cpu]
+[18:17:25.913180][info]       20000 sift features extracted from view '../Incomming-Images/Purple_Top/IMG_7588.jpeg'
+[18:17:26.161463][info] Extracting sift features from view '../Incomming-Images/Purple_Top/IMG_7607.jpeg' [cpu]
+[18:17:43.901723][info]       20000 sift features extracted from view '../Incomming-Images/Purple_Top/IMG_7607.jpeg'
+[18:17:44.144632][info] Extracting sift features from view '../Incomming-Images/Purple_Top/IMG_7600.jpeg' [cpu]
+[18:18:01.646992][info]       20000 sift features extracted from view '../Incomming-Images/Purple_Top/IMG_7600.jpeg'
+[18:18:01.903969][info] Extracting sift features from view '../Incomming-Images/Purple_Top/IMG_7604.jpeg' [cpu]
+[18:18:19.488959][info]       20000 sift features extracted from view '../Incomming-Images/Purple_Top/IMG_7604.jpeg'
+[18:18:19.742958][info] Extracting sift features from view '../Incomming-Images/Purple_Top/IMG_7550.jpeg' [cpu]
+[18:18:37.837257][info]       20000 sift features extracted from view '../Incomming-Images/Purple_Top/IMG_7550.jpeg'
+[18:18:38.082453][info] Extracting sift features from view '../Incomming-Images/Purple_Top/IMG_7549.jpeg' [cpu]
+[18:18:56.211837][info]       20000 sift features extracted from view '../Incomming-Images/Purple_Top/IMG_7549.jpeg'
+[18:18:56.497214][info] Extracting sift features from view '../Incomming-Images/Purple_Top/IMG_7570.jpeg' [cpu]
+[18:19:15.088111][info]       20000 sift features extracted from view '../Incomming-Images/Purple_Top/IMG_7570.jpeg'
+[18:19:15.332136][info] Extracting sift features from view '../Incomming-Images/Purple_Top/IMG_7595.jpeg' [cpu]
+[18:19:32.946715][info]       20000 sift features extracted from view '../Incomming-Images/Purple_Top/IMG_7595.jpeg'
+[18:19:33.199052][info] Extracting sift features from view '../Incomming-Images/Purple_Top/IMG_7543.jpeg' [cpu]
+[18:19:51.072613][info]       20000 sift features extracted from view '../Incomming-Images/Purple_Top/IMG_7543.jpeg'
+[18:19:51.325805][info] Extracting sift features from view '../Incomming-Images/Purple_Top/IMG_7566.jpeg' [cpu]
+[18:20:09.640260][info]       20000 sift features extracted from view '../Incomming-Images/Purple_Top/IMG_7566.jpeg'
+[18:20:09.912253][info] Extracting sift features from view '../Incomming-Images/Purple_Top/IMG_7544.jpeg' [cpu]
+[18:20:28.157965][info]       20000 sift features extracted from view '../Incomming-Images/Purple_Top/IMG_7544.jpeg'
+[18:20:28.406409][info] Extracting sift features from view '../Incomming-Images/Purple_Top/IMG_7616.jpeg' [cpu]
+[18:20:45.842504][info]       20000 sift features extracted from view '../Incomming-Images/Purple_Top/IMG_7616.jpeg'
+[18:20:46.098100][info] Extracting sift features from view '../Incomming-Images/Purple_Top/IMG_7574.jpeg' [cpu]
+[18:21:04.025553][info]       20000 sift features extracted from view '../Incomming-Images/Purple_Top/IMG_7574.jpeg'
+[18:21:04.265588][info] Extracting sift features from view '../Incomming-Images/Purple_Top/IMG_7585.jpeg' [cpu]
+[18:21:22.042322][info]       20000 sift features extracted from view '../Incomming-Images/Purple_Top/IMG_7585.jpeg'
+[18:21:22.294936][info] Extracting sift features from view '../Incomming-Images/Purple_Top/IMG_7558.jpeg' [cpu]
+[18:21:40.200112][info]       20000 sift features extracted from view '../Incomming-Images/Purple_Top/IMG_7558.jpeg'
+[18:21:40.467369][info] Extracting sift features from view '../Incomming-Images/Purple_Top/IMG_7610.jpeg' [cpu]
+[18:21:58.115166][info]       20000 sift features extracted from view '../Incomming-Images/Purple_Top/IMG_7610.jpeg'
+[18:21:58.356660][info] Extracting sift features from view '../Incomming-Images/Purple_Top/IMG_7567.jpeg' [cpu]
+[18:22:16.127144][info]       20000 sift features extracted from view '../Incomming-Images/Purple_Top/IMG_7567.jpeg'
+[18:22:16.371117][info] Extracting sift features from view '../Incomming-Images/Purple_Top/IMG_7590.jpeg' [cpu]
+[18:22:33.955190][info]       20000 sift features extracted from view '../Incomming-Images/Purple_Top/IMG_7590.jpeg'
+[18:22:34.204090][info] Extracting sift features from view '../Incomming-Images/Purple_Top/IMG_7546.jpeg' [cpu]
+[18:22:51.605832][info]       20000 sift features extracted from view '../Incomming-Images/Purple_Top/IMG_7546.jpeg'
+[18:22:51.867355][info] Extracting sift features from view '../Incomming-Images/Purple_Top/IMG_7559.jpeg' [cpu]
+[18:23:09.591291][info]       20000 sift features extracted from view '../Incomming-Images/Purple_Top/IMG_7559.jpeg'
+[18:23:09.858266][info] Extracting sift features from view '../Incomming-Images/Purple_Top/IMG_7548.jpeg' [cpu]
+[18:23:28.593939][info]       20000 sift features extracted from view '../Incomming-Images/Purple_Top/IMG_7548.jpeg'
+[18:23:28.866982][info] Extracting sift features from view '../Incomming-Images/Purple_Top/IMG_7551.jpeg' [cpu]
+[18:23:47.338426][info]       20000 sift features extracted from view '../Incomming-Images/Purple_Top/IMG_7551.jpeg'
+[18:23:47.616757][info] Extracting sift features from view '../Incomming-Images/Purple_Top/IMG_7578.jpeg' [cpu]
+[18:24:05.883101][info]       20000 sift features extracted from view '../Incomming-Images/Purple_Top/IMG_7578.jpeg'
+[18:24:06.135427][info] Extracting sift features from view '../Incomming-Images/Purple_Top/IMG_7557.jpeg' [cpu]
+[18:24:24.472693][info]       20000 sift features extracted from view '../Incomming-Images/Purple_Top/IMG_7557.jpeg'
+[18:24:24.739686][info] Extracting sift features from view '../Incomming-Images/Purple_Top/IMG_7565.jpeg' [cpu]
+[18:24:42.642777][info]       20000 sift features extracted from view '../Incomming-Images/Purple_Top/IMG_7565.jpeg'
+[18:24:42.901460][info] Extracting sift features from view '../Incomming-Images/Purple_Top/IMG_7617.jpeg' [cpu]
+[18:25:00.865460][info]       20000 sift features extracted from view '../Incomming-Images/Purple_Top/IMG_7617.jpeg'
+[18:25:01.137556][info] Extracting sift features from view '../Incomming-Images/Purple_Top/IMG_7552.jpeg' [cpu]
+[18:25:20.323181][info]       20000 sift features extracted from view '../Incomming-Images/Purple_Top/IMG_7552.jpeg'
+[18:25:20.327211][info] Task done in (s): 729.443000
