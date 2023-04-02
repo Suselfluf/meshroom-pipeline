@@ -1,0 +1,19 @@
+{
+    "_parent": null,
+    "status": "SUCCESS",
+    "execMode": "LOCAL",
+    "nodeName": "FeatureExtraction_1",
+    "nodeType": "FeatureExtraction",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_featureExtraction  --input \"../Output/CameraInit/b244d2f26dd98a2a92caba4aef627d10412442f6/cameraInit.sfm\" --describerTypes sift --describerPreset normal --describerQuality normal --contrastFiltering GridSort --gridFiltering True --forceCpuExtraction True --maxThreads 0 --verboseLevel info --output \"../Output/FeatureExtraction/4b921ba9590b31a662cacab7d7ab093fdd8e2373\" --rangeStart 0 --rangeSize 40",
+    "env": null,
+    "startDateTime": "2023-03-07 18:13:10.653987",
+    "endDateTime": "2023-03-07 18:25:20.438927",
+    "elapsedTime": 729.7849402427673,
+    "hostname": "User-PC",
+    "sessionUid": "9044c9ee-bcfa-11ed-a531-58fb841d02d0",
+    "returnCode": 0,
+    "elapsedTimeStr": "0:12:09.784940"
+}

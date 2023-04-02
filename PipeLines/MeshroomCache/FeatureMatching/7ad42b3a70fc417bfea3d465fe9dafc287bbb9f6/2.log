@@ -1,0 +1,28 @@
+Program called with the following parameters:
+ * crossMatching = 0
+ * describerTypes = "sift"
+ * distanceRatio = 0.8
+ * exportDebugFiles = 0
+ * featuresFolders =  = [C:/Users/User/Desktop/Projects/Meshroom-Service/PipeLines/MeshroomCache/FeatureExtraction/eba1419a146d2af2c369866f239f2cb31251b9d1]
+ * geometricError = 0
+ * geometricEstimator =  Unknown Type "enum aliceVision::robustEstimation::ERobustEstimator"
+ * geometricFilterType = "fundamental_matrix"
+ * guidedMatching = 0
+ * imagePairsList =  = [C:/Users/User/Desktop/Projects/Meshroom-Service/PipeLines/MeshroomCache/ImageMatching/ecbe8de4b17c9bd5160585161dd0bd414f6660a6/imageMatches.txt]
+ * input = "C:/Users/User/Desktop/Projects/Meshroom-Service/PipeLines/MeshroomCache/CameraInit/051455e51f88b4135288c31cf0f319e306483a2d/cameraInit.sfm"
+ * knownPosesGeometricErrorMax = 5
+ * matchFilePerImage = 0 (default)
+ * matchFromKnownCameraPoses = 0
+ * maxIteration = 2048
+ * maxMatches = 0
+ * output = "C:/Users/User/Desktop/Projects/Meshroom-Service/PipeLines/MeshroomCache/FeatureMatching/7ad42b3a70fc417bfea3d465fe9dafc287bbb9f6"
+ * photometricMatchingMethod = "ANN_L2"
+ * randomSeed = 5489 (default)
+ * rangeSize = 20
+ * rangeStart = 40
+ * savePutativeMatches = 0
+ * useGridSort = 1 (default)
+ * verboseLevel = "info"
+
+[10:51:39.980132][info] Load pair list from file: C:/Users/User/Desktop/Projects/Meshroom-Service/PipeLines/MeshroomCache/ImageMatching/ecbe8de4b17c9bd5160585161dd0bd414f6660a6/imageMatches.txt
+[10:51:39.981147][warning] loadPairs: Impossible to read the specified file: "C:/Users/User/Desktop/Projects/Meshroom-Service/PipeLines/MeshroomCache/ImageMatching/ecbe8de4b17c9bd5160585161dd0bd414f6660a6/imageMatches.txt".

@@ -1,0 +1,133 @@
+Program called with the following parameters:
+ * contrastFiltering =  Unknown Type "enum aliceVision::feature::EFeatureConstrastFiltering"
+ * describerPreset =  Unknown Type "enum aliceVision::feature::EImageDescriberPreset"
+ * describerQuality =  Unknown Type "enum aliceVision::feature::EFeatureQuality"
+ * describerTypes = "sift"
+ * forceCpuExtraction = 1
+ * gridFiltering = 1
+ * input = "C:/Users/User/Desktop/Projects/Meshroom-Service/PipeLines/MeshroomCache/CameraInit/051455e51f88b4135288c31cf0f319e306483a2d/cameraInit.sfm"
+ * maxNbFeatures = 0 (default)
+ * maxThreads = 0
+ * output = "C:/Users/User/Desktop/Projects/Meshroom-Service/PipeLines/MeshroomCache/FeatureExtraction/eba1419a146d2af2c369866f239f2cb31251b9d1"
+ * rangeSize = 40
+ * rangeStart = 40
+ * relativePeakThreshold = 0.02 (default)
+ * verboseLevel =  Unknown Type "enum aliceVision::system::EVerboseLevel"
+
+[10:41:40.442842][info] CUDA-Enabled GPU.
+Device information:
+	- id:                      0
+	- name:                    NVIDIA GeForce GTX 1060
+	- compute capability:      6.1
+	- total device memory:     3071 MB 
+	- device memory available: 2463 MB 
+	- per-block shared memory: 49152
+	- warp size:               32
+	- max threads per block:   1024
+	- max threads per SM(X):   2048
+	- max block sizes:         {1024,1024,64}
+	- max grid sizes:          {2147483647,65535,65535}
+	- max 2D array texture:    {131072,65536}
+	- max 3D array texture:    {16384,16384,16384}
+	- max 2D linear texture:   {131072,65000,2097120}
+	- max 2D layered texture:  {32768,32768,2048}
+	- number of SM(x)s:        10
+	- registers per SM(x):     65536
+	- registers per block:     65536
+	- concurrent kernels:      yes
+	- mapping host memory:     yes
+	- unified addressing:      yes
+	- texture alignment:       512 byte
+	- pitch alignment:         32 byte
+0
+[10:41:40.852846][info] Supported CUDA-Enabled GPU detected.
+[10:41:40.853853][info] Job max memory consumption for one image: 3730 MB
+[10:41:40.853853][info] Memory information: 
+	- Total RAM:     15.8754 GB
+	- Free RAM:      10.1051 GB
+	- Available RAM: 10.1051 GB
+	- Total swap:    131072 GB
+	- Free swap:     131039 GB
+[10:41:40.853853][info] Max number of threads regarding memory usage: 2
+[10:41:40.853853][info] # threads for extraction: 2
+[10:41:41.280849][info] Extracting sift features from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7546.jpeg' [cpu]
+[10:41:41.299853][info] Extracting sift features from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7589.jpeg' [cpu]
+[10:42:09.823842][info]       20000 sift features extracted from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7546.jpeg'
+[10:42:10.141843][info] Extracting sift features from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7585.jpeg' [cpu]
+[10:42:10.231844][info]       20000 sift features extracted from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7589.jpeg'
+[10:42:10.582861][info] Extracting sift features from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7559.jpeg' [cpu]
+[10:42:39.747851][info]       20000 sift features extracted from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7585.jpeg'
+[10:42:40.078858][info] Extracting sift features from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7565.jpeg' [cpu]
+[10:42:40.267843][info]       20000 sift features extracted from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7559.jpeg'
+[10:42:40.626850][info] Extracting sift features from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7553.jpeg' [cpu]
+[10:43:09.615842][info]       20000 sift features extracted from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7565.jpeg'
+[10:43:09.945853][info] Extracting sift features from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7591.jpeg' [cpu]
+[10:43:10.069843][info]       20000 sift features extracted from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7553.jpeg'
+[10:43:10.396849][info] Extracting sift features from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7562.jpeg' [cpu]
+[10:43:39.593842][info]       20000 sift features extracted from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7591.jpeg'
+[10:43:39.913841][info] Extracting sift features from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7556.jpeg' [cpu]
+[10:43:39.997857][info]       20000 sift features extracted from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7562.jpeg'
+[10:43:40.346848][info] Extracting sift features from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7599.jpeg' [cpu]
+[10:44:09.529845][info]       20000 sift features extracted from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7556.jpeg'
+[10:44:09.857843][info] Extracting sift features from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7603.jpeg' [cpu]
+[10:44:09.946870][info]       20000 sift features extracted from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7599.jpeg'
+[10:44:10.304848][info] Extracting sift features from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7550.jpeg' [cpu]
+[10:44:39.343845][info]       20000 sift features extracted from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7603.jpeg'
+[10:44:39.678857][info] Extracting sift features from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7572.jpeg' [cpu]
+[10:44:39.851844][info]       20000 sift features extracted from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7550.jpeg'
+[10:44:40.223842][info] Extracting sift features from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7608.jpeg' [cpu]
+[10:45:09.135841][info]       20000 sift features extracted from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7572.jpeg'
+[10:45:09.489850][info] Extracting sift features from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7615.jpeg' [cpu]
+[10:45:09.518847][info]       20000 sift features extracted from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7608.jpeg'
+[10:45:09.945848][info] Extracting sift features from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7619.jpeg' [cpu]
+[10:45:38.647841][info]       20000 sift features extracted from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7619.jpeg'
+[10:45:38.973847][info] Extracting sift features from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7581.jpeg' [cpu]
+[10:45:39.204854][info]       20000 sift features extracted from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7615.jpeg'
+[10:45:39.551852][info] Extracting sift features from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7542.jpeg' [cpu]
+[10:46:08.210841][info]       20000 sift features extracted from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7581.jpeg'
+[10:46:08.540857][info] Extracting sift features from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7554.jpeg' [cpu]
+[10:46:08.696842][info]       20000 sift features extracted from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7542.jpeg'
+[10:46:09.063844][info] Extracting sift features from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7605.jpeg' [cpu]
+[10:46:37.990845][info]       20000 sift features extracted from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7554.jpeg'
+[10:46:38.315847][info] Extracting sift features from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7617.jpeg' [cpu]
+[10:46:38.348844][info]       20000 sift features extracted from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7605.jpeg'
+[10:46:38.705851][info] Extracting sift features from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7568.jpeg' [cpu]
+[10:47:07.965842][info]       20000 sift features extracted from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7617.jpeg'
+[10:47:08.313865][info] Extracting sift features from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7614.jpeg' [cpu]
+[10:47:08.553843][info]       20000 sift features extracted from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7568.jpeg'
+[10:47:08.916852][info] Extracting sift features from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7602.jpeg' [cpu]
+[10:47:38.349841][info]       20000 sift features extracted from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7614.jpeg'
+[10:47:38.663859][info] Extracting sift features from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7598.jpeg' [cpu]
+[10:47:38.674852][info]       20000 sift features extracted from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7602.jpeg'
+[10:47:39.024844][info] Extracting sift features from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7610.jpeg' [cpu]
+[10:48:07.773844][info]       20000 sift features extracted from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7598.jpeg'
+[10:48:08.126857][info] Extracting sift features from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7548.jpeg' [cpu]
+[10:48:08.438846][info]       20000 sift features extracted from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7610.jpeg'
+[10:48:08.815850][info] Extracting sift features from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7576.jpeg' [cpu]
+[10:48:37.388842][info]       20000 sift features extracted from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7548.jpeg'
+[10:48:37.724849][info] Extracting sift features from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7583.jpeg' [cpu]
+[10:48:37.890844][info]       20000 sift features extracted from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7576.jpeg'
+[10:48:38.249844][info] Extracting sift features from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7569.jpeg' [cpu]
+[10:49:07.394867][info]       20000 sift features extracted from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7583.jpeg'
+[10:49:07.719847][info] Extracting sift features from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7609.jpeg' [cpu]
+[10:49:07.880844][info]       20000 sift features extracted from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7569.jpeg'
+[10:49:08.306842][info] Extracting sift features from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7541.jpeg' [cpu]
+[10:49:37.074846][info]       20000 sift features extracted from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7609.jpeg'
+[10:49:37.396844][info] Extracting sift features from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7607.jpeg' [cpu]
+[10:49:37.541847][info]       20000 sift features extracted from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7541.jpeg'
+[10:49:37.866852][info] Extracting sift features from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7580.jpeg' [cpu]
+[10:50:07.158845][info]       20000 sift features extracted from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7607.jpeg'
+[10:50:07.464844][info] Extracting sift features from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7596.jpeg' [cpu]
+[10:50:07.521860][info]       20000 sift features extracted from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7580.jpeg'
+[10:50:07.867854][info] Extracting sift features from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7557.jpeg' [cpu]
+[10:50:36.507842][info]       20000 sift features extracted from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7596.jpeg'
+[10:50:36.856845][info] Extracting sift features from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7594.jpeg' [cpu]
+[10:50:37.125845][info]       20000 sift features extracted from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7557.jpeg'
+[10:50:37.495842][info] Extracting sift features from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7563.jpeg' [cpu]
+[10:51:06.289843][info]       20000 sift features extracted from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7594.jpeg'
+[10:51:06.634843][info] Extracting sift features from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7549.jpeg' [cpu]
+[10:51:06.700847][info]       20000 sift features extracted from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7563.jpeg'
+[10:51:07.043849][info] Extracting sift features from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7564.jpeg' [cpu]
+[10:51:36.394857][info]       20000 sift features extracted from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7549.jpeg'
+[10:51:36.708851][info]       20000 sift features extracted from view 'C:/Users/User/Desktop/Projects/Meshroom-Service/Incomming-Images/Purple_Top/IMG_7564.jpeg'
+[10:51:36.711913][info] Task done in (s): 595.858000

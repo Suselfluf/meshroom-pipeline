@@ -1,0 +1,18 @@
+{
+    "_parent": null,
+    "status": "NONE",
+    "execMode": "NONE",
+    "nodeName": "Publish_2",
+    "nodeType": "Publish",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": null,
+    "env": null,
+    "startDateTime": "",
+    "endDateTime": "",
+    "elapsedTime": 0,
+    "hostname": "",
+    "sessionUid": "fd19f492-bf5b-11ed-80a0-58fb841d02d0",
+    "elapsedTimeStr": "0:00:00"
+}
