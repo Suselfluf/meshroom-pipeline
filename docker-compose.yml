@@ -1,51 +1,28 @@
-# version: '3.8'
-# services:
-#   flask:
-    # build: 
-    #   context: .
-    #   dockerfile: Dockerfile
-#     environment:
-#       ## In case to go prod remove this requirement  
-#       - FLASK_DEBUG=true
-#       ## Allows to see the work in command line
-#       - PYTHONUNBUFFERED=True                   
-#     ## Restarn on failure
-#     restart: on-failure
-#     ## Duplicating files in docker container folder
-#     volumes:
-#       - .:/app
-#     ## Port, which will be listened from the outside : Port within the container
-#     ports:
-#       - "5000:5000"
-# #     networks:
-# #       meshroom-service_my_network:
-# #     ## Ipv4_adress of machine
-        
-    
-# # networks:
-# #   meshroom-service_my_network:
-# #     driver: bridge
-
-
-version: '3'
-
+version: "3.7"
 services:
-  web:
-    build: 
-      context: .
-      dockerfile: Dockerfile
-    ports:
-      - "5000:5000"
-    restart: on-failure
-    volumes:
-      - .:/app/Incomming-Images
-    networks:
-      mynetwork:
-        ipv4_address: 192.168.137.1
+  # flask_app:
+  #   build: './flask_app'
+  #   environment:
+  #     - REDIS_URL=redis
+  #     - REDIS_PORT=6379
+  #     - MONGODB_HOST=mongodb
+  #     - MONGODB_PORT=27017
+  #   ports:
+  #     - "5000:5000"
+  #   volumes:
+  #     - .:/app
+  #   depends_on:
+  #     - redis
 
-networks:
-  mynetwork:
-    ipam:
-      driver: default
-      config:
-        - subnet: 192.168.137.0/14
+  simple_worker:
+    build: './simple_worker'
+    user: nobody
+    depends_on:
+      - redis
+
+
+  redis:
+    image: 'redis:4-alpine'
+    ports:
+      - '6379:6379'
+
