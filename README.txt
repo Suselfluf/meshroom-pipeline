@@ -10,3 +10,13 @@ firewall rule netsh advfirewall firewall add rule name="TCP Port 5000" dir=in lo
 
 
 virtual environment - venv/Scripts/Activate.ps1
+
+
+celery tasks :
+
+celery -A tasks worker --loglevel=INFO
+
+
+
+Mesh cache folder 
+search-ms:displayname=Результаты%20поиска%20в%20"Temp"&crumb=location:C%3A%5CUsers%5CUser%5CAppData%5CLocal%5CTemp\MeshroomCache
