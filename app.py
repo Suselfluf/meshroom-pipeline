@@ -14,7 +14,7 @@ client = redis.Redis()
 
 app = Flask(__name__)
 CORS(app)
-simple_app = Celery('simple_worker', broker='redis://localhost', backend='redis://localhost')
+simple_app = Celery('simple_worker', broker='redis://redis:6379/0', backend='redis://redis:6379/0')
 
 
 @app.route('/simple_start_task')
@@ -29,7 +29,7 @@ def call_method():
 @app.route('/simple_task_status/<task_id>')
 def get_status(task_id):
     status = simple_app.AsyncResult(task_id, app=simple_app)
-    print("Invoking Method ")
+    print("Invoking Method get status ")
     return "Status of the Task " + str(status.state)
 
 
