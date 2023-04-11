@@ -20,3 +20,6 @@ celery -A tasks worker --loglevel=INFO
 
 Mesh cache folder 
 search-ms:displayname=Результаты%20поиска%20в%20"Temp"&crumb=location:C%3A%5CUsers%5CUser%5CAppData%5CLocal%5CTemp\MeshroomCache
+
+To run pipeline
+.\Meshroom\meshroom_batch.exe -i ".\Incomming-Images\Purple_Pants" -p ".\PipeLines\New-Pipeline.mg"
