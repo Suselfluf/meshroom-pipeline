@@ -3,12 +3,10 @@ from flask_cors import CORS
 from celery import Celery
 import os 
 from werkzeug.utils import secure_filename
-import subprocess
 import redis
+
 REDIS_HOST = "localhost"
 REDIS_PORT = 6379
-# with redis.Redis() as client: 
-#     while True:
         
 client = redis.Redis()
 
@@ -20,7 +18,7 @@ simple_app = Celery('simple_worker', broker='redis://redis:6379/0', backend='red
 @app.route('/simple_start_task')
 def call_method():
     app.logger.info("Invoking Method ")
-    #                        queue name in task folder.function name
+    # queue name in task folder.function name
     r = simple_app.send_task('tasks.longtime_add', kwargs={'x': 1, 'y': 2})
     app.logger.info(r.backend)
     return r.id
@@ -85,12 +83,8 @@ def recieveBulk():
             
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
 
-    # print(app.config['UPLOAD_FOLDER'])
     problem = app.config['UPLOAD_FOLDER'] 
     client.lpush("problems", problem)
-    # p1 = subprocess.Popen([".\Meshroom\meshroom_batch.exe", "-i", app.config['UPLOAD_FOLDER'] ,"-p",".\PipeLines\Top-part-pipeline.mg"])
-    # p1.communicate()
-    # subprocess.Popen(["ls", "-l"])
     return 'File saved successfully', 200
         
 if __name__ == '__main__':
