@@ -9,5 +9,7 @@ docs/_build/
 dist/
 venv/
 
-Incomming-Images/*
-Output/
+
+.Incomming-Images/
+.Output/
+.Result/
