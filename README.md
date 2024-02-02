@@ -9,8 +9,6 @@ flask run -h {ipv4 adress}
 REDIS_HOST = "localhost"
 REDIS_PORT = 6379
 ```
-### Additional configuration
-firewall rule netsh advfirewall firewall add rule name="TCP Port 5000" dir=in localport=5000 protocol=TCP action=allow
 
 virtual environment - venv/Scripts/Activate.ps1
 
